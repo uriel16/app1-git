@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>primera aplicacion</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  <!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/> -->
+  <!--grupo JavaScript -->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script> -->
+  
+ 
+  </head>
+
+  <body>
+  
+    <div data-role="page" id="principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+        <h1>Uriel Mendoza Amador</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+          <h1>Foto del Perfil</h1>
+            <div>
+              <p>Esta es mi imagen de perfil:</p>
+              <br>
+            </div>
+            <div>
+              <img src="imagenes/fotoperfil.jpg" width="50%" height="50%">
+            </div>
+          </div>
+        </div>
+        <div>
+          <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+          <li class="ui-first-child ui-last-child">
+            <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Datos Generales</h2>
+              <p>Uriel Mendoza Amador</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Fecha de Nacimiento</h2>
+              <p>25 de Mayo del 2000</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>DOMICILIO</h2>
+              <p>Calle 5 Norte#15</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Deporte Favorito</h2>
+              <p>Futbol</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Otros Gustos o Intereses</h2>
+              <p>Leer Libros</p>
+            </a>
+          </li>
+          </ul>
+        </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+          <div>
+            <img src="imagenes/persona_azul.png" width="46" height="46">
+          </div>
+          <div>
+            <h4>Aplicacion uno</h4>
+            <h4>Uriel Mendoza Amador</h4>
+          </div>
+        </div>
+        </div>
+        <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+            <h1>NOMBRE</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+              <h2>URIEL MENDOZA AMADOR</h2>
+            </div>
+          </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>Aplicacion UNO UMA</h4>
+          </div>
+        </div>
+       </div>
+       
+       <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+            <h1>FECHA DE NACIMIENTO</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+              <h2>25 de Mayo del 2000</h2>
+            </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>Aplicacion UNO UMA</h4>
+          </div>
+        </div>
+       </div>
+       
+       <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+            <h1>DOMICILIO</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+              <h2>Calle 5 Norte#15</h2>
+            </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>Aplicacion UNO JAGH</h4>
+          </div>
+        </div>
+       </div>
+       
+       <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+            <h1>DEPORTE FAVORITO</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+              <h2>FUTBOL</h2>
+              <img src="imagenes/futbol.jpg" width="50%" height="50%">
+            </div>
+           </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>Aplicacion UNO UMA</h4>
+          </div>
+        </div>
+       </div>
+       
+       <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+            <h1>GUSTOS E INTERESES</h1>
+          </div>
+          <div data-role="content" align="center">
+            <div>
+              <h2>Leer Libros </h2>
+              <img src="imagenes/leerlibros.jpg" width="50%" height="50%">
+            </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>Aplicacion UNO UMA</h4>
+          </div>
+        </div>
+       </div>
+       
+       
+  </body>
+</html>
